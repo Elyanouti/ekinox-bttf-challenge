@@ -57,6 +57,14 @@ Des preuves de réalisation sont disponibles dans **/screenshots** :
 * **Technique** : Capture du terminal montrant 100% des tests validés (✅ OK).
 * **Parsing** : Algorithme capable de traiter des listes brutes (Bulk Input).
 
+  ### 📸 Preuves de fonctionnement
+
+#### Interface Utilisateur (Streamlit)
+![Interface de l'application](screenshots/Streamlit_Test_1.png)
+
+#### Validation des Tests (Python)
+![Résultats des tests unitaires](screenshots/Terminal_Test.png)
+
 ---
 ## 👤 Contact
 
