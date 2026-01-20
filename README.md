@@ -2,17 +2,17 @@
 
 # 🎬 Back to the Future - Billing System
 
-Solution automatisée pour le calcul des prix et remises DVD (Challenge Ekinox).
+Solution automatisée pour le calcul des prix et remises DVD.
 
 ---
 
-### 📂 Structure du Projet
+### Structure du Projet
 
 ```text
 ekinox-bttf-challenge/
 │
-├── 📁 core/           # Moteur de calcul (Logique métier)
-├── 📁 screenshots/    # Preuves (Tests ✅ & Interface 🖥️)
+├── core/              # Moteur de calcul (Logique métier)
+├── screenshots/       # Preuves (Tests ✅ & Interface )
 ├── app.py             # Interface Streamlit
 ├── tests.py           # Tests automatisés
 ├── Dockerfile         # Environnement isolé
@@ -22,7 +22,7 @@ ekinox-bttf-challenge/
 
 ---
 
-### 🚀 Lancement Rapide (Docker)
+###  Lancement Rapide (Docker)
 
 1. **Build** : `docker build -t bttf-app .`
 2. **Run** : `docker run -p 8501:8501 bttf-app`
@@ -30,7 +30,7 @@ ekinox-bttf-challenge/
 
 ---
 
-### 🐳 Pourquoi Docker ?
+###  Pourquoi Docker ?
 
 * **Cohésion de Team** : Environnement identique pour tous les développeurs.
 * **Zéro Config** : Aucune installation manuelle requise (Python, dépendances).
@@ -49,7 +49,7 @@ python tests.py
 
 ---
 
-### 🛠️ Méthodologie (Screenshots)
+###  Méthodologie (Screenshots)
 
 Des preuves de réalisation sont disponibles dans **/screenshots** :
 
